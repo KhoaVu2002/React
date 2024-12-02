@@ -1,0 +1,31 @@
+.toggle {
+    text-align: center;
+    margin-top: 20px;
+  }
+   
+  .button {
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    outline: none;
+  }
+   
+  .image {
+    width: 100px;
+    margin-top: 20px;
+    transition: opacity 0.5s ease;
+    color: brown;
+  }
+   
+  .on .image {
+    opacity: 1;
+  }
+   
+  .off .image {
+    opacity: 0.3;
+  }
